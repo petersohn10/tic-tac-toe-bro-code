@@ -7,12 +7,12 @@ import java.util.Random;
 
 public class TicTacToe implements ActionListener {
 
-    Random random = new Random();
-    JFrame frame = new JFrame();
-    JPanel title_panel = new JPanel();
-    JPanel button_panel = new JPanel();
-    JLabel text_field = new JLabel();
-    JButton[] buttons = new JButton[9];
+    private final Random random = new Random();
+    private final Frame frame = new JFrame();
+    private final Panel title_panel = new JPanel();
+    private final Panel button_panel = new JPanel();
+    private final Label text_field = new JLabel();
+    private final Button[] buttons = new JButton[9];
     boolean player1_turn;
 
     TicTacToe(){
