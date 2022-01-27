@@ -8,11 +8,11 @@ import java.util.Random;
 public class TicTacToe implements ActionListener {
 
     private final Random random = new Random();
-    private final Frame frame = new JFrame();
-    private final Panel title_panel = new JPanel();
-    private final Panel button_panel = new JPanel();
-    private final Label text_field = new JLabel();
-    private final Button[] buttons = new JButton[9];
+    private final JFrame frame = new JFrame();
+    private final JPanel title_panel = new JPanel();
+    private final JPanel button_panel = new JPanel();
+    private final JLabel text_field = new JLabel();
+    private final JButton[] buttons = new JButton[9];
     boolean player1_turn;
 
     TicTacToe(){
